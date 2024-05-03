@@ -9,7 +9,7 @@
 How to programmatically import components, and render them.
 
 The trick for me was to wrap `await import()` inside brackets, and extract the `default` object:
-``` .js
+``` js
 return (await import(`./${name}.svelte`)).default;
 ```
 
@@ -22,7 +22,7 @@ This would fail if the thing you're importing is not a component, so you can try
 
 
 ## Full code:
-``` .svelte
+``` svelte
 <script lang="ts">
 	const components = [{ name: 'BlueThing' }, { name: 'GreenThing' }];
 

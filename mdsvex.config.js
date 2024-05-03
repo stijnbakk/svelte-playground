@@ -8,7 +8,10 @@ const config = defineConfig({
 	},
 
 	remarkPlugins: [],
-	rehypePlugins: []
+	rehypePlugins: [],
+	highlight:{
+		highlighter: 'prism',
+	}
 });
 
 export default config;
