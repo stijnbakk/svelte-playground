@@ -1,0 +1,12 @@
+# Snippets
+
+
+## Easily add tailwind, MDX, etc
+``` bash
+npx svelte-add@latest tailwindcss mdsvex
+```
+
+## Useful tailwind things
+``` bash
+yarn add -D @tailwindcss/typography @tailwindcss/forms @tailwindcss/aspect-ratio
+```
